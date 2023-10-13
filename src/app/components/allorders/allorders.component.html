@@ -13,7 +13,7 @@
           <div class="col-md-12">
             Payment Method:- &nbsp;{{ product.paymentMethodType }}
           </div>
-          <div class="col-md-12">Crated At:- &nbsp;{{ product.createdAt }}</div>
+          <div class="col-md-12">Crated At:- &nbsp;{{ product.createdAt |date:"M/d/yy" }}</div>
         </div>
         <div class="col-1"></div>
         <div class="col-5 p-2 m-1 bg-main rounded-2 text-light">
@@ -24,7 +24,7 @@
             Payment Method:- &nbsp;{{ product.shippingAddress.city }}
           </div>
           <div class="col-md-12">
-            Crated At:- &nbsp;{{ product.shippingAddress.phone }}
+            Phone:- &nbsp;{{ product.shippingAddress.phone }}
           </div>
         </div>
       </div>
