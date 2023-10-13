@@ -1,0 +1,7 @@
+@media screen and (min-width: 662px) {
+  .bg-main-light {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
