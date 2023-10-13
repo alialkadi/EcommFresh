@@ -34,6 +34,7 @@ import { UserInfoComponent } from './components/user-info/user-info.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
 import { HeadersInterceptor } from './interceptors/headers.interceptor';
 import { LoadingInterceptor } from './interceptors/loading.interceptor';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { LoadingInterceptor } from './interceptors/loading.interceptor';
     UpdateuserinfoComponent,
     UserInfoComponent,
     WishlistComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

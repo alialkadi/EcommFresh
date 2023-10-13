@@ -18,6 +18,7 @@ import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassw
 import { UpdatepasswordComponent } from './components/updatepassword/updatepassword.component';
 import { UpdateuserinfoComponent } from './components/updateuserinfo/updateuserinfo.component';
 import { UserInfoComponent } from './components/user-info/user-info.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/register', pathMatch: 'full' },
@@ -73,6 +74,7 @@ const routes: Routes = [
     canActivate: [authGuard],
     component: CashOnDeliveryComponent,
   },
+  { path: '**', component: NotfoundComponent },
 ];
 
 @NgModule({
